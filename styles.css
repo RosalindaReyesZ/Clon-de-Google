@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sección-derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gmail:hover{
+    text-decoration: underline;
+}
+
+.Imágenes:hover{
+    text-decoration: underline;
+}
+
+
+.sección-derecha a{
+    text-decoration: none;
+    margin-right: 25px;
+    color:black;
+}
+
+
+
+nav .sección-derecha .menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no repeat;
+}
+
+nav .sección-derecha img{
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+
+}
+
+main{
+    text-align: center;
+}
+
+main .logo{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+main .main-input{
+    width: 580px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+main .main-input input{
+    width: 450px;
+    height: 44px;
+    border: none;
+    outline: none;
+
+}
+
+
+main .main-input-container{
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+main .main-input .search-icon{
+    background-image: url("imágenes/lupa.png");
+    width: 17px;
+    height: 17px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-input .micro-icon{
+    background-image: url("imágenes/micro.png");
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    padding-left: 11px;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+main .main-input .cam-icon{
+    background-image: url("imágenes/camara.png");
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    padding-right: 29px;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+main .main-buttons{
+    width: 600px;
+    margin: 0 auto;
+     
+}
+
+main .main-buttons div{
+    display: inline-block; 
+}
+ 
+
+main .main-buttons button{
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+
+    
+}
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+footer ul{
+    margin: 20px;
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;    
+}
+
+
+footer .footer-left{
+    justify-self: left;    
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 15px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
